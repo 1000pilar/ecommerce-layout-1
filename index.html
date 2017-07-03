@@ -11,7 +11,7 @@
       function hideURLbar(){window.scrollTo(0,1);}
     </script>
     <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/simpleCart.js"></script>
+    <script type="text/javascript" src="js/simpleCart.min.js"></script>
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
   </head>
   <body>
@@ -26,14 +26,14 @@
             </ul>
           </div>
           <div class="header-right">
-            <div class="cart box_1">
-              <a href="process-checkout.html">
-                <h3><span class="simpleCart_total"> $0,00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>) <img src="images/bag.png" alt=""></h3>
-              </a>
-              <p><a href="javascript:;" class="simpleCart_empty"> Empty cart</a></p>
-              <div class="clearfix"></div>
-            </div>
-          </div>
+						<div class="cart box_1">
+							<a href="process-checkout.html">
+								<h3> <span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>)<img src="images/bag.png" alt=""></h3>
+							</a>
+							<p><a href="javascript:;" class="simpleCart_empty">Empty cart</a></p>
+							<div class="clearfix"> </div>
+						</div>
+				  </div>
           <div class="clearfix"></div>
         </div>
       </div>
@@ -65,7 +65,7 @@
   			            <div class="row">
   				            <div class="col-sm-4">
   					            <ul class="multi-column-dropdown">
-  									<h6>New Vegetables</h6>
+  									      <h6>New Vegetables</h6>
   						            <li><a href="list-item.html">New Kale, Prizm Hybrid</a></li>
   						            <li><a href="list-item.html">New Beet, Three Color Blend</a></li>
   						            <li><a href="list-item.html">New Swiss Chard, Red Magic Hybrid</a></li>
@@ -94,7 +94,7 @@
   		            </ul>
   		        </li>
   		        <li class="dropdown">
-  		            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Fruit <b class="caret"></b></a>
+  		            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Fruits <b class="caret"></b></a>
   		            <ul class="dropdown-menu multi-column columns-3">
   			            <div class="row">
   				            <div class="col-sm-4">
@@ -129,19 +129,19 @@
   				            <div class="col-sm-4">
   					            <ul class="multi-column-dropdown">
   									<h6>New Flowers</h6>
-  						            <li><a href="products.html">New Sunflower, Red Wave Hybrid</a></li>
-  						            <li><a href="products.html">New Cosmos, Capriola</a></li>
-  						            <li><a href="products.html">New Phlox, Popstars Bright Rose with Eye Hybrid</a></li>
-  						            <li><a href="products.html">New Cosmos, Rosetta</a></li>
+  						            <li><a href="list-item.html">New Sunflower, Red Wave Hybrid</a></li>
+  						            <li><a href="list-item.html">New Cosmos, Capriola</a></li>
+  						            <li><a href="list-item.html">New Phlox, Popstars Bright Rose with Eye Hybrid</a></li>
+  						            <li><a href="list-item.html">New Cosmos, Rosetta</a></li>
   					            </ul>
   				            </div>
   				            <div class="col-sm-4">
   					             <ul class="multi-column-dropdown">
   									<h6>Flowers List</h6>
-  						            <li><a href="products.html">Alyssum</a></li>
-  						            <li><a href="products.html">Amaranthus</a></li>
-  						            <li><a href="products.html">Ammi Majus</a></li>
-  						            <li><a href="products.html">Angelonia</a></li>
+  						            <li><a href="list-item.html">Alyssum</a></li>
+  						            <li><a href="list-item.html">Amaranthus</a></li>
+  						            <li><a href="list-item.html">Ammi Majus</a></li>
+  						            <li><a href="list-item.html">Angelonia</a></li>
   					            </ul>
   				            </div>
   							<div class="clearfix"></div>
@@ -208,7 +208,7 @@
     <div class="clearfix"> </div>
     </div>
     <div class="shop">
-      <a href="detail-item.html">SHOP NOW</a>
+      <a href="list-item.html">SHOP NOW</a>
     </div>
     </div>
   </div>
@@ -216,6 +216,73 @@
   <!-- start content-->
   <div class="container">
 			<div class="main-content">
+        <!-- product-->
+        <div class="other-products">
+          <div class="container">
+            <h3 class="like text-center">Product</h3>
+            <ul id="flexiselDemo3">
+              <li><a href="detail-item.html"><img src="http://demandware.edgesuite.net/sits_pod38/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw0e21a7ba/Images/Product%20Images/prod000566/prod000566.jpg?sw=265&sh=312&sm=fit" class="img-responsive" alt="" /></a>
+                <div class="product liked-product simpleCart_shelfItem">
+                  <a class="like_name" href="detail-item.html">Artichoke, Imperial Star Hybrid</a>
+                  <p><a class="item_add" href="#"><i></i> <span class=" item_price">$7</span></a></p>
+                </div>
+              </li>
+              <li><a href="detail-item.html"><img src="http://demandware.edgesuite.net/sits_pod38/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw6a2b3035/Images/Product%20Images/prod002142/prod002142.jpg?sw=265&sh=312&sm=fit" class="img-responsive" alt="" /></a>
+                <div class="product liked-product simpleCart_shelfItem">
+                  <a class="like_name" href="detail-item.html">Arugula, Selvatica Organic</a>
+                  <p><a class="item_add" href="#"><i></i> <span class=" item_price">$6</span></a></p>
+                </div>
+              </li>
+              <li><a href="detail-item.html"><img src="http://demandware.edgesuite.net/sits_pod38/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwd6e255ea/Images/Product%20Images/prod000625/prod000625.jpg?sw=265&sh=312&sm=fit" class="img-responsive" alt="" /></a>
+                <div class="product liked-product simpleCart_shelfItem">
+                  <a class="like_name" href="detail-item.html">Chinese Cabbage, Pak Choi, Joi Choi Hybrid</a>
+                  <p><a class="item_add" href="#"><i></i> <span class=" item_price">$3.9</span></a></p>
+                </div>
+              </li>
+              <li><a href="detail-item.html"><img src="http://demandware.edgesuite.net/sits_pod38/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwe3e39bf9/Images/Product%20Images/prod001994/prod001994.jpg?sw=265&sh=312&sm=fit" class="img-responsive" alt="" /></a>
+                <div class="product liked-product simpleCart_shelfItem">
+                  <a class="like_name" href="detail-item.html">Gourd, Speckled Swan</a>
+                  <p><a class="item_add" href="#"><i></i> <span class=" item_price">$4.9</span></a></p>
+                </div>
+              </li>
+              <li><a href="detail-item.html"><img src="http://demandware.edgesuite.net/sits_pod38/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw6872d0d3/Images/Product%20Images/prod002723/prod002723.jpg?sw=265&sh=312&sm=fit" class="img-responsive" alt="" /></a>
+                <div class="product liked-product simpleCart_shelfItem">
+                  <a class="like_name" href="detail-item.html">Melon, Honeydew, Arabian Breeze Hybrid</a>
+                  <p><a class="item_add" href="#"><i></i> <span class=" item_price">$6</span></a></p>
+                </div>
+              </li>
+            </ul>
+            <script type="text/javascript">
+            $(window).load(function() {
+              $("#flexiselDemo3").flexisel({
+                visibleItems: 4,
+                animationSpeed: 1000,
+                autoPlay: true,
+                autoPlaySpeed: 3000,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                  portrait: {
+                    changePoint:480,
+                    visibleItems: 1
+                  },
+                  landscape: {
+                    changePoint:640,
+                    visibleItems: 2
+                  },
+                  tablet: {
+                    changePoint:768,
+                    visibleItems: 3
+                  }
+                }
+              });
+
+            });
+          </script>
+          <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+        </div>
+      </div>
+      <!-- end product-->
 				<div class="products-grid">
 				<header>
 					<h3 class="head text-center">New Products</h3>
@@ -296,73 +363,6 @@
 				</div>
 			</div>
 
-      <!-- other product-->
-      <div class="other-products">
-		<div class="container">
-			<h3 class="like text-center">Featured Collection</h3>
-				     <ul id="flexiselDemo3">
-						<li><a href="detail-item.html"><img src="http://demandware.edgesuite.net/sits_pod38/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw0e21a7ba/Images/Product%20Images/prod000566/prod000566.jpg?sw=265&sh=312&sm=fit" class="img-responsive" alt="" /></a>
-							<div class="product liked-product simpleCart_shelfItem">
-							<a class="like_name" href="detail-item.html">Artichoke, Imperial Star Hybrid</a>
-							<p><a class="item_add" href="#"><i></i> <span class=" item_price">$7</span></a></p>
-							</div>
-						</li>
-						<li><a href="detail-item.html"><img src="http://demandware.edgesuite.net/sits_pod38/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw6a2b3035/Images/Product%20Images/prod002142/prod002142.jpg?sw=265&sh=312&sm=fit" class="img-responsive" alt="" /></a>
-							<div class="product liked-product simpleCart_shelfItem">
-							<a class="like_name" href="detail-item.html">Arugula, Selvatica Organic</a>
-							<p><a class="item_add" href="#"><i></i> <span class=" item_price">$6</span></a></p>
-							</div>
-						</li>
-						<li><a href="detail-item.html"><img src="http://demandware.edgesuite.net/sits_pod38/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwd6e255ea/Images/Product%20Images/prod000625/prod000625.jpg?sw=265&sh=312&sm=fit" class="img-responsive" alt="" /></a>
-							<div class="product liked-product simpleCart_shelfItem">
-							<a class="like_name" href="detail-item.html">Chinese Cabbage, Pak Choi, Joi Choi Hybrid</a>
-							<p><a class="item_add" href="#"><i></i> <span class=" item_price">$3.9</span></a></p>
-							</div>
-						</li>
-						<li><a href="detail-item.html"><img src="http://demandware.edgesuite.net/sits_pod38/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwe3e39bf9/Images/Product%20Images/prod001994/prod001994.jpg?sw=265&sh=312&sm=fit" class="img-responsive" alt="" /></a>
-							<div class="product liked-product simpleCart_shelfItem">
-							<a class="like_name" href="detail-item.html">Gourd, Speckled Swan</a>
-							<p><a class="item_add" href="#"><i></i> <span class=" item_price">$4.9</span></a></p>
-							</div>
-						</li>
-						<li><a href="detail-item.html"><img src="http://demandware.edgesuite.net/sits_pod38/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw6872d0d3/Images/Product%20Images/prod002723/prod002723.jpg?sw=265&sh=312&sm=fit" class="img-responsive" alt="" /></a>
-							<div class="product liked-product simpleCart_shelfItem">
-							<a class="like_name" href="detail-item.html">Melon, Honeydew, Arabian Breeze Hybrid</a>
-							<p><a class="item_add" href="#"><i></i> <span class=" item_price">$6</span></a></p>
-							</div>
-						</li>
-				     </ul>
-				    <script type="text/javascript">
-					 $(window).load(function() {
-						$("#flexiselDemo3").flexisel({
-							visibleItems: 4,
-							animationSpeed: 1000,
-							autoPlay: true,
-							autoPlaySpeed: 3000,
-							pauseOnHover: true,
-							enableResponsiveBreakpoints: true,
-					    	responsiveBreakpoints: {
-					    		portrait: {
-					    			changePoint:480,
-					    			visibleItems: 1
-					    		},
-					    		landscape: {
-					    			changePoint:640,
-					    			visibleItems: 2
-					    		},
-					    		tablet: {
-					    			changePoint:768,
-					    			visibleItems: 3
-					    		}
-					    	}
-					    });
-
-					});
-				   </script>
-				   <script type="text/javascript" src="js/jquery.flexisel.js"></script>
-				   </div>
-         </div>
-      <!-- end other product-->
 
 		</div>
   <!-- end content-->
